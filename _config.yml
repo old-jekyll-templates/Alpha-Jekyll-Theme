@@ -1,5 +1,6 @@
 name: Alpha
 description: Alphs template for Jekyll
+baseurl: '/Alpha-Jekyll-Theme'
 
 url: "http://localhost:4000"
 
