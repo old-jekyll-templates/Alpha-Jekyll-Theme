@@ -1,8 +1,8 @@
-name: Alpha
-description: Alphs template for Jekyll
-baseurl: '/Alpha-Jekyll-Theme'
+name: Pedlar Stock Blog
+description: News and behind the scenes
+baseurl: '/Pedlar-Stock-Blog'
 
-url: "http://localhost:4000"
+
 
 paginate: 10
 
