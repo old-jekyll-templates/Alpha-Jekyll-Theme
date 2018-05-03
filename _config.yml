@@ -1,8 +1,8 @@
 name: www.beste-party-musik.de
 description: Hochzeiten, Geburtstage, Firmenevents und Ü30 / Ü40 / Ü50 Partys. Seit 30 Jahren im Raum Bonn, Köln und Oberberg. 
-baseurl: '/landingpage'
+baseurl: '/'
 
-url: "http://localhost:4000"
+url: "http://beste-party-musik.de"
 
 paginate: 10
 
