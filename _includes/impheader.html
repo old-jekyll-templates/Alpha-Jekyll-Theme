@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Dj für Veranstaltungen aller Art. 
+		35 Jahre Erfahrung, in den unterschiedlichsten Veranstaltungsformaten. 
+		Mit vielen erfolgreich gerockten Hochzeiten, Geburtstagen, Firmenevents und Ü30 / Ü40 / Ü50 Partys, 
+		sowohl im Kölner und Bonner Raum als auch im Oberbergischen Kreis, können wir auch Ihre Feier 
+		mit unserem Erfahrungsschatz und reichlich guter Musik begleiten." />
+		<meta name="keywords" content="DJ, Veranstaltungen, Oberberg, Köln, Bonn, Hochzeiten, Geburtstage, Firmenevents, Hermann Möltgen, Hochzeitsdj" />
+			<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.scrollgress.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/skel.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
+	</head>
+	{% if page.url == "/index.html" %}
+		<!-- Banner -->
+		<body class="landing">
+			<section id="banner">
+				<h2>Alpha</h2>
+				<p>Another fine responsive site template freebie by HTML5 UP.</p>
+				<ul class="actions">
+					<li><a href="#" class="button special">Sign Up</a></li>
+					<li><a href="#" class="button">Learn More</a></li>
+				</ul>
+			</section>
+	{% else %}
+		<body>
+			<section id="banner"></section>
+	{% endif %}
+	{% include impnav.html %}
+	<!-- Main -->
+	<section id="main" class="container">
